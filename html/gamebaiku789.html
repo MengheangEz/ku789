@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/Home.css">
+    <link rel="icon" href="../ku789/logo-ku789.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Game Bài Vượt Thời Đại Ku789 - Cổng Game Bài Đỉnh Cao 2023</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-- header btn -->
+    <section class="bg-dark">
+        <div class="container">
+            <div class="row d-none d-md-block">
+                <div class="col-12 py-2">
+                    <div class="d-flex flex-row-reverse">
+                        <button type="button" class="btn btn-danger">CHƠI BẢN WEB</button>
+                        <button type="button" class="btn btn-secondary mx-3">TẢI GAME</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header menu -->
+    <section class="bg-primary d-none d-md-block posi">
+        <div class="container d-flex">
+          <div class="nav-logo">
+            <a href="../index.html"><img class="img-fluid" src="../ku789/logo-ku789.png" alt=""></a>
+          </div>
+          <div class="nav-items d-flex justify-content-center align-items-center flex-wrap">
+            <div class="items">
+              <a class="text-white" href="../index.html">TRANG CHỦ</a>
+            </div>
+            <div class="items">
+              <!-- Example split danger button -->
+              <div class="btn-group">
+                <a  href="./dangkyku789.html" class="text-white d-flex justify-content-center align-items-center">ĐĂNG KÝ KU789</a>
+                <button type="button" class="btn text-white dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Đăng Nhập Ku789</a></li>
+                  <li><a class="dropdown-item" href="#">Nạp Tiền Ku789</a></li>
+                  <li><a class="dropdown-item" href="#">Rút Tiền Ku789</a></li>
+                  <li><a class="dropdown-item" href="#">Tải App Ku789</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="items">
+              <div class="btn-group">
+                <a  href="./casinoku789.html" class="text-white d-flex justify-content-center align-items-center">CASINO KU789</a>
+                <button type="button" class="btn text-white dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Tài Xỉu</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="items">
+              <a class="text-white" href="./xosoku789.html">XỔ SỐ KU789</a>
+            </div>
+            <div class="items">
+              <a class="text-white" href="./gameslotsku789.html">GAME SLOTS KU789</a>
+            </div>
+            <div class="items">
+              <a class="text-white fw-bold" href="./gamebaiku789.html">GAME BÀI KU789</a>
+            </div>
+            <div class="items">
+              <a class="text-white" href="./thethao.html">THỂ THAO</a>
+            </div>
+            <div class="items">
+              <a class="text-white" href="./lienhe.html">LIÊN HỆ</a>
+            </div>
+            <div class="items">
+              <a class="text-white" href="">8US</a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- respon nivbar -->
+     <!-- header menu -->
+    <section class="bg-primary d-flex d-md-none flex-row">
+      <div class="container d-flex justify-content-between">
+        <div class="nav-logo">
+          <a href="../index.html"><img class="img-fluid" src="../ku789/logo-ku789.png" alt=""></a>
+        </div>
+        
+        <a style="text-decoration: none;" class="text-white fs-3 text d-flex align-items-center justify-content-center text-center" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+        
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-outline-success bg-danger text-white border-0" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+          </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="nav-items">
+              <div class="items side-nav">
+                <a href="../index.html">TRANG CHỦ</a>
+              </div>
+              <div class="items">
+                <!-- Example split danger button -->
+                <div class="btn-group" style="line-height: 60px;">
+                  <a  href="./dangkyku789.html" class=" d-flex justify-content-center align-items-center side-nav">ĐĂNG KÝ KU789</a>
+                  <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Đăng Nhập Ku789</a></li>
+                    <li><a class="dropdown-item" href="#">Nạp Tiền Ku789</a></li>
+                    <li><a class="dropdown-item" href="#">Rút Tiền Ku789</a></li>
+                    <li><a class="dropdown-item" href="#">Tải App Ku789</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="items">
+                <div class="btn-group" style="line-height: 60px;">
+                  <a  href="./casinoku789.html" class=" d-flex justify-content-center align-items-center side-nav">CASINO KU789</a>
+                  <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Tài Xỉu</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="items side-nav">
+                <a href="./xosoku789.html">XỔ SỐ KU789</a>
+              </div>
+              <div class="items side-nav">
+                <a href="./gameslotsku789.html">GAME SLOTS KU789</a>
+              </div>
+              <div class="items side-nav">
+                <a href="./gamebaiku789.html">GAME BÀI KU789</a>
+              </div>
+              <div class="items side-nav">
+                <a href="./thethao.html">THỂ THAO</a>
+              </div>
+              <div class="items side-nav">
+                <a href="./lienhe.html">LIÊN HỆ</a>
+              </div>
+              <div class="items side-nav">
+                <a href="">8US</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- btn menu -->
+    <section style="background-color: #F1F1F1;">
+      <div class="container">
+        <div class="row d-flex d-md-none flex-row justify-content-center text-center align-items-center">
+            <div class="col-12 py-3">
+                <div>
+                  <button type="button" class="btn btn-secondary mx-3">TẢI GAME</button>
+                  <button type="button" class="btn btn-danger">CHƠI BẢN WEB</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- body -->
+    <section>
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h5 class="text-center mt-5"><a style="text-decoration: none; color: black" href="./gamebaiku789.html">Home</a> » Game Bài Ku789</h5>
+                  <p class="mt-4">Bạn đam mê chơi game bài và muốn tìm một thương hiệu uy tín và đa dạng? Hãy cùng khám phá thương hiệu hàng đầu <span class="fw-bold">Ku789</span> trong lĩnh vực game bài đổi thưởng. Trong bài viết này, chúng ta sẽ đi sâu vào thế giới của <a style="text-decoration: none; color: black; font-weight: bold;" href="./GAME BÀI KU789.html">Game Bài Ku789</a>, khám phá các tính năng nổi bật, lợi ích và tại sao nó là lựa chọn hàng đầu cho những người yêu thích game bài.</p>
+                  <h2 class="fw-bold mt-4">Giới thiệu về game bài tại Ku789</h2>
+                  <p class="mt-4"><a style="text-decoration: none; color: black; font-weight: bold;" href="./GAME BÀI KU789.html">Ku789</a> là một trò chơi giải trí trực tuyến, bao gồm các loại bài như Poker, Blackjack, Baccarat, Rồng Hổ, Sic Bo và nhiều trò chơi khác. Người chơi tham gia để giành chiến thắng và nhận phần thưởng, quà tặng hoặc tiền thưởng. Trong trò chơi này, người chơi có thể đấu với đối thủ hoặc chơi với máy tính. Thường thì những tựa game đề có quy tắc và thời gian giới hạn để người chơi đưa ra quyết định.</p>
+                  <p class="mt-4">Ngoài việc mang tính giải trí, <span class="fw-bold">Game Bài Ku789</span> còn có thể là một phương tiện kiếm tiền trực tuyến. Người chơi có thể tham gia vào website, ứng dụng hoặc nền tảng game bài trực tuyến để trải nghiệm và có cơ hội kiếm thu nhập từ việc chơi game. </p>
+                  <h2 class="fw-bold mt-4">Kho Game Bài Ku789</h2>
+                  <p class="mt-4">Ku789 tự hào sở hữu một kho <span class="fw-bold">Game Bài Ku789</span> đa dạng và độc đáo. Dưới đây là điểm nổi bật về kho game bài online của Ku789:</p>
+                  <p class="mt-4"><ion-icon name="ellipse" style="font-size: 8px;"></ion-icon> <span class="fw-bold">Baccarat:</span> Trải nghiệm Baccarat tại Ku789 đầy thú vị và đáng tin cậy. Giao diện tinh tế, hình ảnh sắc nét và âm thanh sống động mang đến trải nghiệm trực tiếp và chân thực.</p>
+                  <p class="mt-4"><ion-icon name="ellipse" style="font-size: 8px;"></ion-icon> <span class="fw-bold">Sâm Lốc:</span> Ku789 cung cấp nhiều phiên bản Sâm Lốc, từ truyền thống đến biến thể đặc biệt.</p>
+                  <p class="mt-4"><ion-icon name="ellipse" style="font-size: 8px;"></ion-icon> <span class="fw-bold">Poker:</span> Người chơi có thể tham gia vào nhiều biến thể Poker phổ biến như Texas Hold’em, Omaha và Stud Poker. Giao diện tương tác và chất lượng tuyệt vời tạo ra môi trường chơi sống động.</p>
+                  <p class="mt-4"><ion-icon name="ellipse" style="font-size: 8px;"></ion-icon> <span class="fw-bold">Rồng Hổ:</span> Trò chơi Rồng Hổ tại Ku789 được đầu tư và phát triển đến từng chi tiết, mang đến trải nghiệm kịch tính và hấp dẫn.</p>
+                  <p class="mt-4"><ion-icon name="ellipse" style="font-size: 8px;"></ion-icon> <span class="fw-bold">Sicbo:</span> Trò chơi Sicbo tại Ku789 hấp dẫn với giao diện đẹp mắt, hình ảnh sắc nét và âm thanh sống động. Sự đa dạng và linh hoạt trong các loại cược là điểm đặc biệt.</p>
+                  <p class="mt-4"><ion-icon name="ellipse" style="font-size: 8px;"></ion-icon> <span class="fw-bold">Blackjack:</span> Trò chơi Blackjack tại Ku789 mang đến trận đấu kịch tính và cơ hội giành chiến thắng lớn. Giao diện và trải nghiệm người dùng tối ưu, đảm bảo công bằng và khách quan.</p>
+                  <p class="mt-4">Kho <span class="fw-bold">Game Bài Ku789</span> đáng để khám phá và mang đến những trải nghiệm tuyệt vời cho người chơi yêu thích đánh bài và cá cược.</p>
+                  <h2 class="fw-bold mt-4">Lợi ích của Game Bài Ku789</h2>
+                  <p class="mt-4">Để tham gia <span class="fw-bold">Game Bài Ku789</span> mang đến lợi ích tuyệt vời cho cược thủ. Giao diện trò chơi hiện đại và bắt mắt tạo nên một trải nghiệm đẳng cấp. Giao dịch thanh toán an toàn, minh bạch và nhanh chóng đảm bảo sự tiện lợi. Đội ngũ tổng đài viên trực tuyến 24/7 sẵn sàng hỗ trợ cược thủ mọi lúc, mọi nơi. Còn đổi thưởng và khuyến mãi hấp dẫn tạo thêm động lực và cơ hội chiến thắng.</p>
+                  <h2 class="fw-bold mt-4">Hướng dẫn tham Game Bài Ku789</h2>
+                  <p class="mt-4">Để tham gia <span class="fw-bold">Để tham gia game bài đổi thưởng tại Ku789, bạn chỉ cần làm các bước sau:</p>
+                  <p class="mt-4"><ion-icon name="ellipse" style="font-size: 8px;"></ion-icon> Truy cập trang web của Ku789.</p>
+                  <p class="mt-4"><ion-icon name="ellipse" style="font-size: 8px;"></ion-icon> Đăng ký tài khoản và tạo mật khẩu.</p>
+                  <p class="mt-4"><ion-icon name="ellipse" style="font-size: 8px;"></ion-icon> Nạp tiền vào tài khoản.</p>
+                  <p class="mt-4"><ion-icon name="ellipse" style="font-size: 8px;"></ion-icon> Khám phá và chơi game bài theo sở thích của bạn.</p>
+                  <p class="mt-4"><ion-icon name="ellipse" style="font-size: 8px;"></ion-icon> Rút tiền hoặc đổi thưởng qua phần tài khoản trên trang web.</p>
+                  <p class="mt-4">Chỉ cần làm những bước đơn giản này, bạn có thể tham gia trò chơi và tận hưởng niềm vui cùng Ku789.</p>
+                  <h2 class="fw-bold mt-4">Tổng kết</h2>
+                  <p class="mt-4">Chơi <span class="fw-bold">Game Bài Ku789</span> đem lại nhiều lợi ích hấp dẫn như giao diện hiện đại, thanh toán an toàn và nhanh chóng, tổng đài trực tuyến 24/7 và khuyến mãi hấp dẫn. Hãy tham gia ngay và trải nghiệm sự hấp dẫn của các trò chơi bài tuyệt vời tại Ku789!</p>
+              </div>
+          </div>
+          <!-- news-->
+          <div class="row mt-5">
+              <div class="col-12">
+                  <div class="row">
+                      <div class="col-12 col-md-9 col-sm-12 border-end">
+                          <a class="fw-bold text-center d-flex align-items-center justify-content-center" style="text-decoration: none; color: #5F7084;" href="./GAME BÀI KU789.html">GAME BÀI KU789</a>
+                          <h2 class="fw-bold mt-4 text-center">Bỏ túi cách chơi game Rồng Hổ cho newbie ăn thưởng đã tay</h2>
+                          <p class="mt-4 text-center" style="font-size: 12px;">POSTED ON 31/05/2024 BY AMY</p>
+                          <a class="d-flex justify-content-center" style="text-decoration: none;" href="./GAME BÀI KU789.html">
+                              <div class="img-game">
+                                  <div class="time px-3 text-center fw-bold" style="position: absolute; color: #446084; background-color: white; border: #446084 solid 3px;">
+                                      <p>31<br>Th5</p>
+                                  </div>
+                                  <img class="img-fluid" src="../ku789/Artboard 35.png" alt="">
+                              </div>
+                          </a>
+                          <p class="mt-4 fs-5">Game Rồng Hổ là một trong những trò chơi đánh bài hấp dẫn, phù hợp với cả những người mới bắt đầu lẫn các tay chơi kỳ cựu. Với lối chơi đơn giản, dễ hiểu và tỷ lệ thắng cao, hình thức giải trí này đã trở thành lựa chọn hàng đầu tại các sòng […]</p>
+                          <div class="link text-center mt-4">
+                              <a class="fw-bold py-1 px-2" style="text-decoration: none; border: #446084 solid 2px;" href="./GAME BÀI KU789.html">XEM TIẾP →</a>
+                          </div>
+                          <div class="unline d-flex justify-content-between mt-4 border-top border-bottom pt-2 border-2">
+                              <p>trong GAME BÀI KU789</p>
+                              <p>Để lại bình luận</p>
+                          </div>
+                          <a class="fw-bold text-center d-flex align-items-center justify-content-center mt-5" style="text-decoration: none; color: #5F7084;" href="./GAME BÀI KU789.html">GAME BÀI KU789</a>
+                          <h2 class="fw-bold mt-4 text-center">3 đôi thông chặt được gì? Đọc vị đối thủ trong game Tiến lên</h2>
+                          <p class="mt-4 text-center" style="font-size: 12px;">POSTED ON 12/03/2024 BY AMY</p>
+                          <a class="d-flex justify-content-center mt-5" style="text-decoration: none;" href="./GAME BÀI KU789.html">
+                              <div class="img-game">
+                                  <div class="time px-3 text-center fw-bold" style="position: absolute; color: #446084; background-color: white; border: #446084 solid 3px;">
+                                      <p>12<br>Th3</p>
+                                  </div>
+                                  <img class="img-fluid" src="../ku789/Artboard 9.png" alt="">
+                              </div>
+                          </a>
+                          <p class="mt-4 fs-5">Nếu biết được 3 đôi thông chặt được gì trong game bài Tiến lên thì phần thắng chắc chắn sẽ thuộc về bạn. Đây là một trong những câu hỏi mà Ku789 đã nhận được nhiều nhất trong thời gian vừa qua. Và để có thể giải đáp chi tiết cho bạn, trong nội dung […]</p>
+                          <div class="link text-center mt-4">
+                              <a class="fw-bold py-1 px-2" style="text-decoration: none; border: #446084 solid 2px;" href="./GAME BÀI KU789.html">XEM TIẾP →</a>
+                          </div>
+                          <div class="unline d-flex justify-content-between mt-4 border-top border-bottom pt-2 border-2">
+                              <p>trong GAME BÀI KU789</p>
+                              <p>Để lại bình luận</p>
+                          </div>
+                          <a class="fw-bold text-center d-flex align-items-center justify-content-center mt-5" style="text-decoration: none; color: #5F7084;" href="./GAME BÀI KU789.html">GAME BÀI KU789</a>
+                          <h2 class="fw-bold mt-4 text-center">Học cách chơi bài Tú lơ khơ và bí kíp toàn thắng từ cao thủ</h2>
+                          <p class="mt-4 text-center" style="font-size: 12px;">POSTED ON 08/03/2024 BY AMY</p>
+                          <a class="d-flex justify-content-center mt-5" style="text-decoration: none;" href="./GAME BÀI KU789.html">
+                              <div class="img-game">
+                                  <div class="time px-3 text-center fw-bold" style="position: absolute; color: #446084; background-color: white; border: #446084 solid 3px;">
+                                      <p>08<br>Th3</p>
+                                  </div>
+                                  <img class="img-fluid" src="../ku789/Artboard 12.png" alt="">
+                              </div>
+                          </a>
+                          <p class="mt-4 fs-5">Nếu bạn là người đam mê đổi thưởng thì chắc chắn cái tên bài Tú lơ khơ không còn là điều quá xa lạ. Đây là một phiên bản của bài tiến lên miền Bắc, được nhiều người ưa chuộng vì cách chơi đơn giản, phù hợp với mọi lứa tuổi. Trong bài viết này, […]</p>
+                          <div class="link text-center mt-4">
+                              <a class="fw-bold py-1 px-2" style="text-decoration: none; border: #446084 solid 2px;" href="./GAME BÀI KU789.html">XEM TIẾP →</a>
+                          </div>
+                          <div class="unline d-flex justify-content-between mt-4 border-top border-bottom pt-2 border-2">
+                              <p>trong GAME BÀI KU789</p>
+                              <p>Để lại bình luận</p>
+                          </div>
+                          <a class="fw-bold text-center d-flex align-items-center justify-content-center mt-5" style="text-decoration: none; color: #5F7084;" href="./GAME BÀI KU789.html">GAME BÀI KU789</a>
+                          <h2 class="fw-bold mt-4 text-center">Cao thủ bật mí các tuyệt chiêu xếp bài theo thứ tự Mậu Binh</h2>
+                          <p class="mt-4 text-center" style="font-size: 12px;">POSTED ON 05/03/2024 BY AMY</p>
+                          <a class="d-flex justify-content-center mt-5" style="text-decoration: none;" href="./GAME BÀI KU789.html">
+                              <div class="img-game">
+                                  <div class="time px-3 text-center fw-bold" style="position: absolute; color: #446084; background-color: white; border: #446084 solid 3px;">
+                                      <p>05<br>Th3</p>
+                                  </div>
+                                  <img class="img-fluid" src="../ku789/Artboard 70.png" alt="">
+                              </div>
+                          </a>
+                          <p class="mt-4 fs-5">Thứ tự Mậu Binh được hiểu là cách sắp xếp các lá bài từ mạnh đến yếu trong trò chơi dân gian. Nó quy định thứ hạng của các bộ bài và người chiến thắng sẽ cần so sánh sức mạnh của bộ bài của mình với đối thủ. Trong nội dung bài viết sau […]</p>
+                          <div class="link text-center mt-4">
+                              <a class="fw-bold py-1 px-2" style="text-decoration: none; border: #446084 solid 2px;" href="./GAME BÀI KU789.html">XEM TIẾP →</a>
+                          </div>
+                          <div class="unline d-flex justify-content-between mt-4 border-top border-bottom pt-2 border-2">
+                              <p>trong GAME BÀI KU789</p>
+                              <p>Để lại bình luận</p>
+                          </div>
+                          <a class="fw-bold text-center d-flex align-items-center justify-content-center mt-5" style="text-decoration: none; color: #5F7084;" href="./GAME BÀI KU789.html">GAME BÀI KU789</a>
+                          <h2 class="fw-bold mt-4 text-center">Lợi ích và cách mua máy đánh bài Liêng “bịp” tốt nhất hiện nay</h2>
+                          <p class="mt-4 text-center" style="font-size: 12px;">POSTED ON 02/03/2024 BY AMY</p>
+                          <a class="d-flex justify-content-center mt-5" style="text-decoration: none;" href="./GAME BÀI KU789.html">
+                              <div class="img-game">
+                                  <div class="time px-3 text-center fw-bold" style="position: absolute; color: #446084; background-color: white; border: #446084 solid 3px;">
+                                      <p>02<br>Th3</p>
+                                  </div>
+                                  <img class="img-fluid" src="../ku789/Artboard 64.png" alt="">
+                              </div>
+                          </a>
+                          <p class="mt-4 fs-5">Ngày nay, việc tham gia hoạt động đánh cờ bạc đã trở nên phổ biến trên toàn cầu, đặc biệt là tại Việt Nam. Ngoài những hình thức truyền thống thì việc gian lận cũng đang phát triển mạnh mẽ. Máy đánh bài Liêng và các dụng cụ khác đã được bày bán, với đa […]</p>
+                          <div class="link text-center mt-4">
+                              <a class="fw-bold py-1 px-2" style="text-decoration: none; border: #446084 solid 2px;" href="./GAME BÀI KU789.html">XEM TIẾP →</a>
+                          </div>
+                          <div class="unline d-flex justify-content-between mt-4 border-top border-bottom pt-2 border-2">
+                              <p>trong GAME BÀI KU789</p>
+                              <p>Để lại bình luận</p>
+                          </div>
+                          <a class="fw-bold text-center d-flex align-items-center justify-content-center mt-5" style="text-decoration: none; color: #5F7084;" href="./GAME BÀI KU789.html">GAME BÀI KU789</a>
+                          <h2 class="fw-bold mt-4 text-center">Cách chơi Tiến lên miền Bắc và thủ thuật giành chiến thắng 99%</h2>
+                          <p class="mt-4 text-center" style="font-size: 12px;">POSTED ON 27/02/2024 BY AMY</p>
+                          <a class="d-flex justify-content-center mt-5" style="text-decoration: none;" href="./GAME BÀI KU789.html">
+                              <div class="img-game">
+                                  <div class="time px-3 text-center fw-bold" style="position: absolute; color: #446084; background-color: white; border: #446084 solid 3px;">
+                                      <p>27<br>Th2</p>
+                                  </div>
+                                  <img class="img-fluid" src="../ku789/Artboard 69.png" alt="">
+                              </div>
+                          </a>
+                          <p class="mt-4 fs-5">Tiến lên miền Bắc thường được coi là một trong những tựa game đánh bài thú vị. Tuy nhiên, việc tìm hiểu kỹ về các quy tắc và chiến thuật chơi trong thể loại này không phải là công việc đơn giản và không phải tất cả mọi người đều có khả năng nắm bắt […]</p>
+                          <div class="link text-center mt-4">
+                              <a class="fw-bold py-1 px-2" style="text-decoration: none; border: #446084 solid 2px;" href="./GAME BÀI KU789.html">XEM TIẾP →</a>
+                          </div>
+                          <div class="unline d-flex justify-content-between mt-4 border-top border-bottom pt-2 border-2">
+                              <p>trong GAME BÀI KU789</p>
+                              <p>Để lại bình luận</p>
+                          </div>
+                          <a class="fw-bold text-center d-flex align-items-center justify-content-center mt-5" style="text-decoration: none; color: #5F7084;" href="./GAME BÀI KU789.html">GAME BÀI KU789</a>
+                          <h2 class="fw-bold mt-4 text-center">Tìm hiểu luật Mậu Binh từ những kiến thức cơ bản đến nâng cao</h2>
+                          <p class="mt-4 text-center" style="font-size: 12px;">POSTED ON 23/02/2024 BY AMY</p>
+                          <a class="d-flex justify-content-center mt-5" style="text-decoration: none;" href="./GAME BÀI KU789.html">
+                              <div class="img-game">
+                                  <div class="time px-3 text-center fw-bold" style="position: absolute; color: #446084; background-color: white; border: #446084 solid 3px;">
+                                      <p>23<br>Th2</p>
+                                  </div>
+                                  <img class="img-fluid" src="../ku789/Artboard 58.png" alt="">
+                              </div>
+                          </a>
+                          <p class="mt-4 fs-5">Những điều lệ cơ bản trong luật Mậu Binh hay còn được gọi là “phỏm” đã trở nên quá phổ biến tại Việt Nam. Đây là một trò chơi thường sẽ có 4 người tham gia và sử dụng một bộ bài tiêu chuẩn gồm 52 lá. Ngoài ra, nếu bạn muốn giành chiến thắng […]</p>
+                          <div class="link text-center mt-4">
+                              <a class="fw-bold py-1 px-2" style="text-decoration: none; border: #446084 solid 2px;" href="./GAME BÀI KU789.html">XEM TIẾP →</a>
+                          </div>
+                          <div class="unline d-flex justify-content-between mt-4 border-top border-bottom pt-2 border-2">
+                              <p>trong GAME BÀI KU789</p>
+                              <p>Để lại bình luận</p>
+                          </div>
+                          <a class="fw-bold text-center d-flex align-items-center justify-content-center mt-5" style="text-decoration: none; color: #5F7084;" href="./GAME BÀI KU789.html">GAME BÀI KU789</a>
+                          <h2 class="fw-bold mt-4 text-center">Học thuộc lòng cách chơi Xì Tố Online chi tiết cho người mới</h2>
+                          <p class="mt-4 text-center" style="font-size: 12px;">POSTED ON 20/02/2024 BY AMY</p>
+                          <a class="d-flex justify-content-center mt-5" style="text-decoration: none;" href="./GAME BÀI KU789.html">
+                              <div class="img-game">
+                                  <div class="time px-3 text-center fw-bold" style="position: absolute; color: #446084; background-color: white; border: #446084 solid 3px;">
+                                      <p>20<br>Th2</p>
+                                  </div>
+                                  <img class="img-fluid" src="../ku789/Artboard 76.png" alt="">
+                              </div>
+                          </a>
+                          <p class="mt-4 fs-5">Xì Tố Online là trò chơi thu hút một lượng đông đảo người tham gia. Mặc dù quy tắc có vẻ đơn giản, nhưng để trở thành một cao thủ chuyên nghiệp, điều này sẽ không dễ dàng với tất cả mọi người. Trong bài viết này, Ku789 sẽ bật mí chi tiết những mẹo […]</p>
+                          <div class="link text-center mt-4">
+                              <a class="fw-bold py-1 px-2" style="text-decoration: none; border: #446084 solid 2px;" href="./GAME BÀI KU789.html">XEM TIẾP →</a>
+                          </div>
+                          <div class="unline d-flex justify-content-between mt-4 border-top border-bottom pt-2 border-2">
+                              <p>trong GAME BÀI KU789</p>
+                              <p>Để lại bình luận</p>
+                          </div>
+                          <a class="fw-bold text-center d-flex align-items-center justify-content-center mt-5" style="text-decoration: none; color: #5F7084;" href="./GAME BÀI KU789.html">GAME BÀI KU789</a>
+                          <h2 class="fw-bold mt-4 text-center">Bật mí cách chơi game bài Tiến lên miền Nam miễn phí Online</h2>
+                          <p class="mt-4 text-center" style="font-size: 12px;">POSTED ON 16/02/2024 BY AMY</p>
+                          <a class="d-flex justify-content-center mt-5" style="text-decoration: none;" href="./GAME BÀI KU789.html">
+                              <div class="img-game">
+                                  <div class="time px-3 text-center fw-bold" style="position: absolute; color: #446084; background-color: white; border: #446084 solid 3px;">
+                                      <p>16<br>Th2</p>
+                                  </div>
+                                  <img class="img-fluid" src="../ku789/Artboard 27.png" alt="">
+                              </div>
+                          </a>
+                          <p class="mt-4 fs-5">Chơi game bài Tiến lên miền Nam miễn phí luôn là một lựa chọn hàng đầu khi tụ tập cùng bạn bè. Từ lâu, tựa game này đã trở thành một sản phẩm giải trí quen thuộc thu hút sự yêu thích của nhiều người. Tuy nhiên, vẫn còn một số bet thủ Việt chưa […]</p>
+                          <div class="link text-center mt-4">
+                              <a class="fw-bold py-1 px-2" style="text-decoration: none; border: #446084 solid 2px;" href="./GAME BÀI KU789.html">XEM TIẾP →</a>
+                          </div>
+                          <div class="unline d-flex justify-content-between mt-4 border-top border-bottom pt-2 border-2">
+                              <p>trong GAME BÀI KU789</p>
+                              <p>Để lại bình luận</p>
+                          </div>
+                          <a class="fw-bold text-center d-flex align-items-center justify-content-center mt-5" style="text-decoration: none; color: #5F7084;" href="./GAME BÀI KU789.html">GAME BÀI KU789</a>
+                          <h2 class="fw-bold mt-4 text-center">Lý do nên tải game bài đổi thưởng nhiều người chơi nhất 2024</h2>
+                          <p class="mt-4 text-center" style="font-size: 12px;">POSTED ON 13/02/2024 BY AMY</p>
+                          <a class="d-flex justify-content-center mt-5" style="text-decoration: none;" href="./GAME BÀI KU789.html">
+                              <div class="img-game">
+                                  <div class="time px-3 text-center fw-bold" style="position: absolute; color: #446084; background-color: white; border: #446084 solid 3px;">
+                                      <p>13<br>Th2</p>
+                                  </div>
+                                  <img class="img-fluid" src="../ku789/Artboard 73.png" alt="">
+                              </div>
+                          </a>
+                          <p class="mt-4 fs-5">Ngày nay, đối với rất nhiều bet thủ việc tải game bài đổi thưởng nhiều người chơi nhất để tham gia đánh bạc tại các sòng bài trực tuyến đã trở thành một sở thích phổ biến. Không chỉ mang đến những giây phút thư giãn, mà còn cung cấp nhiều phần thưởng hấp dẫn. […]</p>
+                          <div class="link text-center mt-4">
+                              <a class="fw-bold py-1 px-2" style="text-decoration: none; border: #446084 solid 2px;" href="./GAME BÀI KU789.html">XEM TIẾP →</a>
+                          </div>
+                          <div class="unline d-flex justify-content-between mt-4 border-top border-bottom pt-2 border-2">
+                              <p>trong GAME BÀI KU789</p>
+                              <p>Để lại bình luận</p>
+                          </div>
+                          <div class="pages-site mt-5 text-center mb-5">
+                              <a href="" style="background-color: #446084; color: white; border-radius: 50px;">1</a>
+                              <a href="">2</a>
+                              <a href="">3</a>
+                              <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+                          </div>
+                      </div>
+                      <!-- side img -->
+                      <div class="col-12 col-md-3 col-sm-12">
+                        <h5>BÀI VIẾT MỚI</h5>
+                        <div class="row mt-5">
+                            <div class="col-3">
+                                <img class="img-fluid" src="../ku789/Artboard 88.png" alt="">
+                            </div>
+                            <div class="col-9">
+                                <a style="text-decoration: none; color: black; font-size: 20px;" href="">Bắn cá 999 – Thiên đường kiếm thưởng lớn, đổi đời cực nhanh</a>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-3">
+                                <img class="img-fluid" src="../ku789/Artboard 89.png" alt="">
+                            </div>
+                            <div class="col-9">
+                                <a style="text-decoration: none; color: black; font-size: 20px;" href="">Bỏ túi cách chơi game Rồng Hổ cho newbie ăn thưởng đã tay</a>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-3">
+                                <img class="img-fluid" src="../ku789/Artboard 92.png" alt="">
+                            </div>
+                            <div class="col-9">
+                                <a style="text-decoration: none; color: black; font-size: 20px;" href="">Nổ hũ Đoạt Bảo – Game quay hũ đổi thưởng đáng chơi nhất 2024</a>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-3">
+                                <img class="img-fluid" src="../ku789/Artboard 87.png" alt="">
+                            </div>
+                            <div class="col-9">
+                                <a style="text-decoration: none; color: black; font-size: 20px;" href="">Bật mí mẹo đánh Baccarat cơm gạo đem về lợi nhuận siêu khủng</a>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-3">
+                                <img class="img-fluid" src="../img/gap-thep-baccarat-150x150.jpg.webp" alt="">
+                            </div>
+                            <div class="col-9">
+                                <a style="text-decoration: none; color: black; font-size: 20px;" href="">Gấp thếp Baccarat – Chiến thuật chơi 1 vốn 10 lời dễ dàng</a>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-3">
+                                <img class="img-fluid" src="../img/the-bai-baccarat-150x150.jpg.webp" alt="">
+                            </div>
+                            <div class="col-9">
+                                <a style="text-decoration: none; color: black; font-size: 20px;" href="">4 thế bài Baccarat thường gặp giúp sinh lời thành công</a>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-3">
+                                <img class="img-fluid" src="../img/quan-ly-von-baccarat-dong-vai-tro-cuc-ky-quan-trong-trong-van-cuoc-150x150.jpg (1).webp" alt="">
+                            </div>
+                            <div class="col-9">
+                                <a style="text-decoration: none; color: black; font-size: 20px;" href="">Cách quản lý vốn Baccarat khi chơi tại 8US 100% có lãi</a>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-3">
+                                <img class="img-fluid" src="../img/hack-casino-150x150.jpg.webp" alt="">
+                            </div>
+                            <div class="col-9">
+                                <a style="text-decoration: none; color: black; font-size: 20px;" href="">Hack casino là gì? Lưu ý cần nắm giúp hạn chế rủi ro tối đa</a>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-3">
+                                <img class="img-fluid" src="../img/ty-le-bong-da-ca-cuoc-150x150.jpg.webp" alt="">
+                            </div>
+                            <div class="col-9">
+                                <a style="text-decoration: none; color: black; font-size: 20px;" href="">Bí quyết soi tỷ lệ bóng đá cá cược thắng lớn mỗi ngày</a>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-3">
+                                <img class="img-fluid" src="../img/kinh-nghiem-ca-do-bong-da-gioi-150x150.jpg.webp" alt="">
+                            </div>
+                            <div class="col-9">
+                                <a style="text-decoration: none; color: black; font-size: 20px;" href="">Kinh nghiệm cá độ bóng đá bất bại – Chiến thắng mọi kèo cược</a>
+                            </div>
+                        </div>
+                        <h5 class="mt-5">CHUYÊN MỤC</h5>
+                        <p class="border-bottom fs-5 mt-4 fw-bold">Casino Ku789</p>
+                        <p class="border-bottom fs-5">Game Bài Ku789</p>
+                        <p class="border-bottom fs-5">Game Slot Ku789</p>
+                        <p class="border-bottom fs-5">Thể Thao</p>
+                        <p class="border-bottom fs-5">Tin Tức</p>
+                        <p class="border-bottom fs-5">Xổ Số Ku789</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    </section>
+
+
+     <!-- end -->
+      <section style="background-color: #0D6EFD;">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-6 col-md-4 col-sm-6 text-white mt-4">
+              <img class="img-fluid w-50" src="../ku789/logo-ku789.png" alt="">
+              <h4 class="fw-bold">Giới Thiệu Ku789</h4>
+              <p><span class="fw-bold">Ku789</span> là một trong những cổng game nổi tiếng hoạt động cực kỳ mạnh mẽ trên thị trường Việt Nam. Cung cấp các game giải trí đẳng cấp cho hàng ngàn game thủ.</p>
+              <img class="img-fluid mt-3" src="../img/dmca_protected_sml_120m.png" alt="">
+            </div>
+            <div class="col-6 col-md-2 col-sm-6 text-white mt-4 mb-5">
+              <p class="fw-bold mt-5">DANH MỤC</p>
+              <a style="text-decoration: none; color: white;" href="../index.html">Casino</a><br><br>
+              <a style="text-decoration: none; color: white;" href="../index.html">Xổ Số</a><br><br>
+              <a style="text-decoration: none; color: white;" href="../index.html">Game Slots</a><br><br>
+              <a style="text-decoration: none; color: white;" href="../index.html">Tài Xỉu</a><br><br>
+              <a style="text-decoration: none; color: white;" href="../index.html">Sitemap</a>
+            </div>
+            <div class="col-6 col-md-4 col-sm-6 text-white mt-4 mb-5 text-center">
+              <h3 class="fw-bold mt-5">Thông Tin Liên Hệ</h3>
+              <div class="row text-white mt-5" style="border-top: #1460E2 solid 1px;">
+                <div class="col-6 mt-1">
+                  <p>Website</p>
+                </div>
+                <div class="col-6 mt-1">
+                  <p>ku789.me</p>
+                </div>
+              </div>
+              <div class="row text-white" style="border-top: #1460E2 solid 1px;">
+                <div class="col-6 mt-1 text-center d-flex align-items-center justify-content-center">
+                  <p>Địa chỉ</p>
+                </div>
+                <div class="col-6 mt-1">
+                  <p>348 Bắc Hải, Phường 6, Quận 10, Thành phố Hồ Chí Minh, Vietnam</p>
+                </div>
+              </div>
+              <div class="row text-white" style="border-top: #1460E2 solid 1px;">
+                <div class="col-6 mt-1">
+                  <p>Đối tác: Cổng game Gemwin  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="fw-bold py-3" style="color: grey;">Copyright 2024 © ku789.me</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      
+
+
+
+
+
+    <script src="../js/home.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

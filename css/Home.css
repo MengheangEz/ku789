@@ -1,0 +1,60 @@
+.posi{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.nav-logo{
+    max-width: 120px;
+}
+.items{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.items a{
+    color: #7C7C7C;
+    text-decoration: none;
+}
+/* respon sidebar */
+.offcanvas{
+   background-color: #F2F4F7; 
+}
+.side-nav a{
+    line-height: 60px;
+}
+
+.splide {
+    max-width: 1280px;
+    margin: auto;
+}
+.on-logo{
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    font-size: 10px;
+    background-color: white;
+    color: rgb(68, 96, 132);
+    border: rgb(68, 96, 132) solid 2px;
+}
+.on-click .img-live .on-logo{
+    transition: 0.1s all ease;
+}
+.link a{
+    transition: .3s all ease;
+    color: #446084;
+}
+.link a:hover{
+    background-color: #446084;
+    color: white;
+}
+.pages-site a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 13px;
+    color: #446084;
+    border-radius: 50px;
+    border: #446084 solid 2px;
+}
+.pages-site a:hover{
+    background-color: #446084;
+    color: white;
+}
